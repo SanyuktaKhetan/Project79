@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Pizzaria</title>
+        <link rel="stylesheet" text="test/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body class="body_background">
+        <ul class="menu">
+            <li class="list"><a href="#menu_card"> View Menu</a></li>
+            <li class="list"><a href="#add_menu">Add Item</a></li>
+        </ul>
+        <div id="menu_card">
+            <button id="menu_list" onclick="getmenu()">Show Menu</button>
+           <div id="display_menu">
+               <ol class="menulist">
+                <li>Chicken Tandoori Pizza</li>
+                <li>Deluxe Veggie Pizza</li>
+                <li>Paneer Tikka Pizza</li>
+                <li>Veg Extravaganza Pizza</li>
+                <li>Veg Supreme Pizza</li>
+                </ol>
+            </div>
+        </div>
+        <div id="add_menu">
+            <h1>New Menu </h1>
+            <input type="text" id="item" placeholder="Add the toppping Here">
+            <div>
+            <button id="add_button" onclick="add_menu()">
+            Add To The list
+            </button>
+            <div id="added_menu">
+                Added Item
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>

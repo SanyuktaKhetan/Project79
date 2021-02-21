@@ -1,0 +1,83 @@
+.body_background
+{
+    background-image: url("pizza.png");
+    background-position: left;
+    width:100%;
+    height: auto;
+}
+.menu{
+    list-style:none;
+    z-index: 10;
+    color:blanchedalmond;
+    position: absolute;
+    right:30px;
+    cursor:pointer;
+    background-color: black;
+}
+.list{
+    float:left;
+    padding: 15px;
+    font-size:20px;
+    font-family: cursive;
+    letter-spacing: 2.5px;
+}
+.list:hover{
+    color:white;
+    text-decoration: underline;
+}
+#menu_list {
+    background-color: #f5c71a;
+    color: black;
+    width: 200px;
+    border: none;
+}
+#display_menu{
+    display: none;
+}
+button#menu_list
+{
+    margin-top: 150px;
+    margin-left: 1000px;
+    padding: 20px;
+    font-size: 25px;
+}
+ol.menulist
+{
+    margin-left: 1000px;
+    font-weight: 900;
+    font-size: 25px;
+    background-color:white;
+    padding: 40px;
+    width:25%;
+    line-height: 40px;
+}
+#add_menu{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+#add_menu h1{
+    color:black;
+    font-size:40px;
+    font-weight: 900;
+}
+#item{
+    font-size:20px;
+}
+#add_button
+{
+    background-color: #f5c71a;
+    color: black;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+#added_menu{
+    background-color: white;
+    font-size:20px;
+   margin-top:20px;
+}
+.list a:visited{
+    color:white;
+}
